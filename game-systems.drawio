@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="vafZ4INu7wBo06csaNF7">
+    <mxGraphModel dx="4924" dy="3349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8SwhAk6annXs9NYu5zwX-9" edge="1" parent="1" source="8SwhAk6annXs9NYu5zwX-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8SwhAk6annXs9NYu5zwX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Entity" vertex="1">
+          <mxGeometry height="60" width="120" x="-80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Item" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;center&quot;&gt;How dose the Entity interact with the Item?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="40" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-10" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="520" width="600" x="-320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-11" parent="8SwhAk6annXs9NYu5zwX-10" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="What is an Item?" vertex="1">
+          <mxGeometry height="30" width="120" x="240" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-13" parent="8SwhAk6annXs9NYu5zwX-10" style="rounded=1;whiteSpace=wrap;html=1;" value="Interactable" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-16" parent="8SwhAk6annXs9NYu5zwX-10" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="150" width="200" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-12" parent="8SwhAk6annXs9NYu5zwX-16" style="rounded=1;whiteSpace=wrap;html=1;" value="Entity" vertex="1">
+          <mxGeometry height="60" width="120" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-18" parent="8SwhAk6annXs9NYu5zwX-16" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" value="An Item is an Entity as it can exist within the world, and may have components of its own." vertex="1">
+          <mxGeometry height="80" width="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-19" parent="8SwhAk6annXs9NYu5zwX-10" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="150" width="200" x="200" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-20" parent="8SwhAk6annXs9NYu5zwX-19" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" value="An Item is able to be picked up, dropped, or even placed inside a container." vertex="1">
+          <mxGeometry height="80" width="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-14" parent="8SwhAk6annXs9NYu5zwX-10" style="rounded=1;whiteSpace=wrap;html=1;" value="Usable" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-21" parent="8SwhAk6annXs9NYu5zwX-10" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="150" width="200" x="400" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8SwhAk6annXs9NYu5zwX-22" parent="8SwhAk6annXs9NYu5zwX-21" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" value="An Item May be usable in some capacity. A Weapon is an Item, as well as what can upgrade the Weapon." vertex="1">
+          <mxGeometry height="80" width="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Item" vertex="1">
+          <mxGeometry height="80" width="80" x="1510" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-21" edge="1" parent="1" source="FO0kWh53vZng6NjRfEHZ-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FO0kWh53vZng6NjRfEHZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-22" edge="1" parent="1" source="FO0kWh53vZng6NjRfEHZ-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FO0kWh53vZng6NjRfEHZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Key Board&lt;/div&gt;&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;Mouse&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="600" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-8" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" value="Human Input Abstraction" vertex="1">
+          <mxGeometry height="560" width="880" x="760" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-10" parent="FO0kWh53vZng6NjRfEHZ-8" style="shape=offPageConnector;whiteSpace=wrap;html=1;" value="Drop/Throw" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-16" parent="FO0kWh53vZng6NjRfEHZ-8" style="swimlane;" value="Key Bind Providers" vertex="1">
+          <mxGeometry height="360" width="480" x="160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-30" parent="FO0kWh53vZng6NjRfEHZ-8" style="swimlane;startSize=0;" value="Item" vertex="1">
+          <mxGeometry height="280" width="160" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-11" parent="FO0kWh53vZng6NjRfEHZ-30" style="shape=offPageConnector;whiteSpace=wrap;html=1;" value="Pickup" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-25" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" value="Entity" vertex="1">
+          <mxGeometry height="760" width="480" x="760" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-26" parent="FO0kWh53vZng6NjRfEHZ-25" style="swimlane;whiteSpace=wrap;html=1;" value="Components" vertex="1">
+          <mxGeometry height="520" width="240" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-24" parent="FO0kWh53vZng6NjRfEHZ-26" style="shape=display;whiteSpace=wrap;html=1;" value="&lt;div&gt;Item&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-39" edge="1" parent="FO0kWh53vZng6NjRfEHZ-26" source="FO0kWh53vZng6NjRfEHZ-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-31" parent="FO0kWh53vZng6NjRfEHZ-26" style="shape=display;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;ͼt&quot;&gt;Equippable&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-32" parent="FO0kWh53vZng6NjRfEHZ-26" style="shape=display;whiteSpace=wrap;html=1;" value="Weapon" vertex="1">
+          <mxGeometry height="40" width="160" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-33" parent="FO0kWh53vZng6NjRfEHZ-26" style="shape=display;whiteSpace=wrap;html=1;" value="AbilityProvider" vertex="1">
+          <mxGeometry height="40" width="160" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-38" parent="FO0kWh53vZng6NjRfEHZ-26" style="shape=display;whiteSpace=wrap;html=1;" value="ModifierProvider" vertex="1">
+          <mxGeometry height="40" width="160" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-28" edge="1" parent="1" source="FO0kWh53vZng6NjRfEHZ-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FO0kWh53vZng6NjRfEHZ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-35" edge="1" parent="1" source="FO0kWh53vZng6NjRfEHZ-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FO0kWh53vZng6NjRfEHZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-36" edge="1" parent="1" source="FO0kWh53vZng6NjRfEHZ-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FO0kWh53vZng6NjRfEHZ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Are Weapon and Ability Provider the same thing?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Is Weapon just a marker? What dose it uniquely do?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-37" edge="1" parent="1" source="FO0kWh53vZng6NjRfEHZ-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FO0kWh53vZng6NjRfEHZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FO0kWh53vZng6NjRfEHZ-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Can be dragged around in ui" vertex="1">
+          <mxGeometry height="40" width="120" x="1240" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
