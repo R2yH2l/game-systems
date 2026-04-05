@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="2hzi1US4F7-a9Kia9GX0">
+    <mxGraphModel dx="1768" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-4" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Collision" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-5" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Create Hit" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Pass Hit to Resolver" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-12" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Gather Modifiers" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-13" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Pre-Mitigation&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-11" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-16" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Immunities" vertex="1">
+          <mxGeometry height="60" width="120" x="1040" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-17" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Resistances" vertex="1">
+          <mxGeometry height="60" width="120" x="1240" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-19" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Defenses" vertex="1">
+          <mxGeometry height="60" width="120" x="1440" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-21" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Post-Mitigation" vertex="1">
+          <mxGeometry height="60" width="120" x="1640" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Apply Damage" vertex="1">
+          <mxGeometry height="60" width="120" x="2040" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-25" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Actual Damage" vertex="1">
+          <mxGeometry height="60" width="120" x="1840" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Base Damage&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-27" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="On Hit modifiers apply here" vertex="1">
+          <mxGeometry height="40" width="140" x="630" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-29" edge="1" parent="1" source="Ja3W95sz7YjxPQI8hOFE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ja3W95sz7YjxPQI8hOFE-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja3W95sz7YjxPQI8hOFE-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Damage based modifiers apply here" vertex="1">
+          <mxGeometry height="40" width="140" x="1630" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
